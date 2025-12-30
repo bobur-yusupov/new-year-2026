@@ -11,7 +11,7 @@ class CountdownPage extends StatefulWidget {
 }
 
 class _CountdownPageState extends State<CountdownPage> {
-  DateTime _countdownDate = DateTime(2026, 1, 1);
+  final DateTime _countdownDate = DateTime(2026, 1, 1);
   Timer? _timer;
   Duration _timeRemaining = Duration();
 
